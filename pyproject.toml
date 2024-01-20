@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "di504"
+version = "0.1.0"
+description = "final"
+authors = ["TasbasMN <nazifts@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.4"
+torch = "^2.1.2"
+transformers = "^4.36.2"
+ipywidgets = "^8.1.1"
+einops = "^0.7.0"
+scikit-learn = "^1.3.2"
+joblib = "^1.3.2"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.1"
+fuzzywuzzy = "^0.18.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
